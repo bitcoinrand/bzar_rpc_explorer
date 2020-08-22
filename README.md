@@ -62,17 +62,6 @@ For configuring with CLI arguments, run `btc-rpc-explorer --help` for the full l
 ```bash
 btc-rpc-explorer --port 8080 --bitcoind-port 18443 --bitcoind-cookie ~/.bitcoin/regtest/.cookie
 ```
-
-#### Demo site settings
-
-To match the features visible on the demo site at [https://explorer.btc21.org](https://explorer.btc21.org) you'll need to set the following non-default configuration values:
-
-    BTCEXP_DEMO=true 		# enables some demo/informational aspects of the site
-    BTCEXP_NO_RATES=false		# enables querying of exchange rate data
-    BTCEXP_SLOW_DEVICE_MODE=false	# enables resource-intensive tasks (UTXO set query, 24hr volume querying) that are inappropriate for "slow" devices
-
-
-
 ## Run via Docker
 
 1. `docker build -t btc-rpc-explorer .`
