@@ -1,0 +1,15 @@
+{
+	"payout_addresses" : {
+		"bzar1q60afz9690thq6tscqkze6jkeqh5veuvmh8263w": {
+			"name" : "Satoshi",
+			"link" : "https://bitcoin.org"
+		}
+	},
+	"block_hashes" : {
+		"000000008d9dc510f23c2657fc4f67bea30078cc05a90eb89e84cc475c080805": {
+			"name" : "Satoshi",
+			"link" : "https://bitcoinrand.com",
+			"note" : ""
+		}
+	}
+}
