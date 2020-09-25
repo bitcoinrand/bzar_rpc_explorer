@@ -10,7 +10,7 @@ var blockchairAddressApi = require("./blockchairAddressApi.js");
 var blockcypherAddressApi = require("./blockcypherAddressApi.js");
 
 function getSupportedAddressApis() {
-	return ["blockchain.com", "blockchair.com", "blockcypher.com", "electrumx"];
+	return ["blockchain.com", "blockchair.com", "blockcypher.com", "electrumx","explorer.bitcoinrand.com"];
 }
 
 function getCurrentAddressApiFeatureSupport() {

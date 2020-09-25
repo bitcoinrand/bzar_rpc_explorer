@@ -62,7 +62,7 @@ for (var i = 0; i < electrumXServerUriStrings.length; i++) {
 	if (process.env[item] === undefined) {
 		process.env[item] = "true";
 
-		debugLog(`Config(default): ${item}=true`)
+		debugLog(`Config(default): ${item}=true`);
 	}
 });
 
