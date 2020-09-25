@@ -21,4 +21,4 @@ RUN set -x \
 COPY bin/bitcoinrand.conf /root/.bitcoinrand
 
 EXPOSE 3002 19451
-CMD "ls -la && /root/.bitcoinrand/bitcoinrandd -daemon && npm start"
+CMD "/root/.bitcoinrand/bitcoinrandd -daemon && npm start"
